@@ -1,0 +1,17 @@
+[Unit]
+Description=ESL Web Server on Ubuntu Server
+Requires=mysql.service
+After=mysql.service
+
+[Service]
+WorkingDirectory=/var/www/eslcorewebapp
+ExecStart=/var/www/eslcorewebapp/EslCoreWebApplication
+Restart=always
+RestartSec=10
+User=root
+SyslogIdentifier=eslcorewebapp
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+
+[Install]
+WantedBy=multi-user.target

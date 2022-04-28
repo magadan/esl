@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EslLayoutInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EslTemplate>
+    <Variant>Q</Variant>
+    <Width>400</Width>
+    <Height>300</Height>
+    <Object>
+      <Text>
+        <X>0</X>
+        <Y>105</Y>
+        <Width>400</Width>
+        <Height>118</Height>
+        <Content>%C%%6%</Content>
+        <Color>0</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>78</Size>
+          <Italic>0</Italic>
+          <Bold>1</Bold>
+        </Font>
+        <Lines>1</Lines>
+        <HAlignment>center</HAlignment>
+        <VAlignment>center</VAlignment>
+        <Rotation>0</Rotation>
+      </Text>
+      <Comment>Sell price</Comment>
+    </Object>
+    <Object>
+      <Rectangle>
+        <X>0</X>
+        <Y>8</Y>
+        <Width>400</Width>
+        <Height>90</Height>
+        <Color>0</Color>
+        <Size>0</Size>
+      </Rectangle>
+    </Object>
+    <Object>
+      <Text>
+        <X>0</X>
+        <Y>11</Y>
+        <Width>400</Width>
+        <Height>87</Height>
+        <Content>%3%</Content>
+        <Color>1</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>26</Size>
+          <Italic>0</Italic>
+          <Bold>1</Bold>
+        </Font>
+        <Lines>0</Lines>
+        <HAlignment>center</HAlignment>
+        <VAlignment>center</VAlignment>
+        <Rotation>0</Rotation>
+      </Text>
+      <Comment>Description</Comment>
+    </Object>
+    <Object>
+      <Text>
+        <X>2</X>
+        <Y>250</Y>
+        <Width>103</Width>
+        <Height>40</Height>
+        <Content>%8% %9%</Content>
+        <Color>0</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>18</Size>
+          <Italic>0</Italic>
+          <Bold>0</Bold>
+        </Font>
+        <Lines>1</Lines>
+        <HAlignment>left</HAlignment>
+        <VAlignment>center</VAlignment>
+        <Rotation>0</Rotation>
+        <ShrinkToFit>1</ShrinkToFit>
+      </Text>
+      <Comment>Product info</Comment>
+    </Object>
+    <Object>
+      <Text>
+        <X>294</X>
+        <Y>250</Y>
+        <Width>101</Width>
+        <Height>40</Height>
+        <Content>#%1%</Content>
+        <Color>0</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>18</Size>
+          <Italic>0</Italic>
+          <Bold>0</Bold>
+        </Font>
+        <Lines>1</Lines>
+        <HAlignment>right</HAlignment>
+        <VAlignment>center</VAlignment>
+        <Rotation>0</Rotation>
+        <ShrinkToFit>1</ShrinkToFit>
+      </Text>
+      <Comment>Product ID</Comment>
+    </Object>
+    <Object>
+      <Barcode>
+        <X>105</X>
+        <Y>235</Y>
+        <Width>190</Width>
+        <Height>45</Height>
+        <Content>%2%</Content>
+        <Color>0</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>10</Size>
+          <Italic>0</Italic>
+          <Bold>0</Bold>
+        </Font>
+        <Lines>1</Lines>
+        <HAlignment>center</HAlignment>
+        <VAlignment>bottom</VAlignment>
+        <Rotation>0</Rotation>
+        <Type>0</Type>
+      </Barcode>
+      <Comment>Product barcode</Comment>
+    </Object>
+    <Object>
+      <Text>
+        <X>105</X>
+        <Y>280</Y>
+        <Width>190</Width>
+        <Height>22</Height>
+        <Content>%2%</Content>
+        <Color>0</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>14</Size>
+          <Italic>0</Italic>
+          <Bold>0</Bold>
+        </Font>
+        <Lines>1</Lines>
+        <HAlignment>center</HAlignment>
+        <VAlignment>bottom</VAlignment>
+        <Rotation>0</Rotation>
+      </Text>
+      <Comment>Barcode text</Comment>
+    </Object>
+    <Object>
+      <Barcode>
+        <X>100</X>
+        <Y>0</Y>
+        <Width>200</Width>
+        <Height>8</Height>
+        <Content>%UMAC%</Content>
+        <Color>#000000</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>10</Size>
+          <Italic>0</Italic>
+          <Bold>0</Bold>
+        </Font>
+        <Lines>1</Lines>
+        <HAlignment>center</HAlignment>
+        <VAlignment>center</VAlignment>
+        <Rotation>0</Rotation>
+        <Type>10</Type>
+      </Barcode>
+      <Comment>MAC Address</Comment>
+    </Object>
+  </EslTemplate>
+</EslLayoutInfo>

@@ -1,0 +1,12 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: libgdiplus
+Description: GDI+ implementation
+Version: 6.2
+Requires: glib-2.0 gmodule-2.0 gthread-2.0
+Libs: -L${libdir} -lgdiplus -lglib-2.0 -lcairo  -lfontconfig -lfreetype -lfreetype -ljpeg -L/usr/local -ltiff -lgif -lpng16 -lz -lX11 -lexif
+Cflags: -I${includedir} -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include  -Wall -Wextra -Wno-unused-parameter -Wno-sign-compare -std=gnu11 -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16  -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/freetype2 -I/usr/include/libpng16  -I/usr/include/libexif

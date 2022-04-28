@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EslLayoutInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EslTemplate>
+    <Variant>H</Variant>
+    <Width>200</Width>
+    <Height>96</Height>
+    <Object>
+      <Rectangle>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>200</Width>
+        <Height>32</Height>
+        <Color>0</Color>
+        <Size>0</Size>
+      </Rectangle>
+    </Object>
+    <Object>
+      <Text>
+        <X>0</X>
+        <Y>3</Y>
+        <Width>200</Width>
+        <Height>28</Height>
+        <Content>Product not Available!</Content>
+        <Color>1</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>11</Size>
+          <Italic>0</Italic>
+          <Bold>1</Bold>
+        </Font>
+        <Lines>2</Lines>
+        <HAlignment>CENTER</HAlignment>
+        <VAlignment>CENTER</VAlignment>
+        <Rotation>0</Rotation>
+      </Text>
+    </Object>
+    <Object>
+      <Text>
+        <X>11</X>
+        <Y>40</Y>
+        <Width>200</Width>
+        <Height>20</Height>
+        <Content>ID: %ID%</Content>
+        <Color>0</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>10</Size>
+          <Italic>0</Italic>
+          <Bold>1</Bold>
+        </Font>
+        <Lines>1</Lines>
+        <HAlignment>LEFT</HAlignment>
+        <VAlignment>CENTER</VAlignment>
+        <Rotation>0</Rotation>
+      </Text>
+    </Object>
+    <Object>
+      <Text>
+        <X>11</X>
+        <Y>60</Y>
+        <Width>200</Width>
+        <Height>20</Height>
+        <Content>MAC: %UMAC%</Content>
+        <Color>#000000</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>10</Size>
+          <Italic>0</Italic>
+          <Bold>1</Bold>
+        </Font>
+        <Lines>1</Lines>
+        <HAlignment>left</HAlignment>
+        <VAlignment>center</VAlignment>
+        <Rotation>0</Rotation>
+      </Text>
+    </Object>
+    <Object>
+      <Barcode>
+        <X>0</X>
+        <Y>88</Y>
+        <Width>200</Width>
+        <Height>8</Height>
+        <Content>%UMAC%</Content>
+        <Color>#000000</Color>
+        <Font>
+          <Type>Bitstream Vera Sans</Type>
+          <Size>10</Size>
+          <Italic>0</Italic>
+          <Bold>0</Bold>
+        </Font>
+        <Lines>1</Lines>
+        <HAlignment>center</HAlignment>
+        <VAlignment>bottom</VAlignment>
+        <Rotation>0</Rotation>
+        <Type>10</Type>
+      </Barcode>
+    </Object>
+  </EslTemplate>
+</EslLayoutInfo>

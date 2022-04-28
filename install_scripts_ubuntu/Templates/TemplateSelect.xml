@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EslLayoutInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EslTemplate>
+    <Variant>T</Variant>
+    <Condition>%5%&gt;%6%</Condition>
+    <FileName>Discount_1_5.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>T</Variant>
+    <FileName>Normal_1_5.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>T</Variant>
+    <Condition />
+    <FileName>NotFound_1_5.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>H</Variant>
+    <Condition>%5%&gt;%6%</Condition>
+    <FileName>Discount_2.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>H</Variant>
+    <FileName>Normal_2.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>H</Variant>
+    <Condition />
+    <FileName>NotFound_2.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>W</Variant>
+    <Condition>%5%&gt;%6%</Condition>
+    <FileName>Discount_2_1.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>W</Variant>
+    <FileName>Normal_2_1.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>W</Variant>
+    <Condition />
+    <FileName>NotFound_2_1.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>V</Variant>
+    <Condition>%5%&gt;%6%</Condition>
+    <FileName>Discount_2_9.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>V</Variant>
+    <FileName>Normal_2_9.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>V</Variant>
+    <Condition />
+    <FileName>NotFound_2_9.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>Q</Variant>
+    <Condition>%5%&gt;%6%</Condition>
+    <FileName>Discount_4_x.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>Q</Variant>
+    <FileName>Normal_4_x.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>Q</Variant>
+    <Condition />
+    <FileName>NotFound_4_x.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>Y</Variant>
+    <Condition>%5%&gt;%6%</Condition>
+    <FileName>Discount_7_5.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>Y</Variant>
+    <FileName>Normal_7_5.xml</FileName>
+  </EslTemplate>
+  <EslTemplate>
+    <Variant>Y</Variant>
+    <Condition />
+    <FileName>NotFound_7_5.xml</FileName>
+  </EslTemplate>
+</EslLayoutInfo>
