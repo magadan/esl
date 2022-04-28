@@ -1,24 +1,14 @@
 #!/bin/bash
 
-if [ $USER != "root" ]; then
-   sudo $0 $USER $HOME
-   exit 0
-fi
-
 HOMEPATH=$2
 
-#These variables can be edited for personal preference
 SVC="eslcorewebapp.service"
 WEBROOT="/var/www"
 WEBFOLDER="$WEBROOT/eslcorewebapp"
 
-#This variable contain the path of the actual certificate (*.pfx) that certificate.json points to.
-#Since this script will not read the contents of the certificate.json file, please modify the path for your personalized installation. Use a fully qualified path.
 CERTFILEPATH="$WEBFOLDER/ebs-50.pfx"
-#This variable is fixed; ESL Web Server expects the certificate + password in this exact file.
 CERTCONFPATH="$WEBFOLDER/certificate.json"
 
-#These variables are pretty fixed (default folder names of the files served by Opticon)
 DEPLOY="$HOMEPATH/linux_x64_deploy"
 SCRIPTSFOLDER="$HOMEPATH/install_scripts_ubuntu"
 DEPCERTFILE="$DEPLOY/ebs-50.pfx"
